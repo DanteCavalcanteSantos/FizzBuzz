@@ -1,0 +1,37 @@
+.rodape{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    font-size: 1em;
+    margin: 10px;
+    padding: 5px;
+}
+
+.midia_a {
+    margin-right: 10px;
+}
+
+.midia_img{
+    width: 20px;
+    height: 20px;
+}
+
+.midia_img:hover{
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s ease-out;
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);;
+}
+
+.rodape_parag{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,15 @@
+@import url(./cabecalho/cabecalho.css);
+@import url(./conteudo/conteudo.css);
+@import url(./rodape/rodape.css);
+
+:root{
+    --fonte-principal: 'Lato', sans-serif;;
+    --branco: white;
+}
+
+.siteConteudo{
+    background: linear-gradient(rgb(143, 28, 28), rgb(179, 84, 84), #c6c6c6);
+    background-repeat: no-repeat;
+    font-family: var(--fonte-principal);
+    min-height: 100vh;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montagu+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>FizzBuzz</title>
+</head>
+<body class="siteConteudo">
+    <header class="cabecalho">
+        <div class="cabecalho_div">
+            <h1 class="cabecalho_titulo">FizzBuzz</h1>
+        </div>
+        <p class="cabecalho_parag">Descubra se o número é divisivel por 3 ou 5 ou por ambos.</p>
+            <p class="cabecalho_b">Os números são substituiveis por Fizz, Buzz ou FiizBuzz.</p>
+    </header>
+    <main class="conteudoPrincipal">
+        <div class="entrada">
+            <p class="entrada_p">Digite um número entre um intervalor de 1 a 100</p>
+            <label class="entrada_label" for="valor">Digite um número</label>
+            <input type="number" name="number" id="valor" min="1" max="100">
+            <input type="button" value="Resultado" id="res" onclick="calcular()">
+        </div>
+        <div class="explicacao">
+            <span class="explicacao_mostra"></span>
+        </div>
+    </main>
+    <footer class="rodape">
+        <div class="titulo">
+            <h2 class="rodape_titulo">Me acompanhe nas redes sociais:</h2>
+        </div>
+       <div class="rodape_midia">
+        <nav class="midia_nav">
+            <a class="midia_a" target="_blank" href="https://www.linkedin.com/in/dante-cavalcante-santos/">
+                <img class="midia_img" src="assets/img/linkedIn_icon.png" alt="icone LinkedIn">
+            </a>
+            <a class="midia_a" target="_blank" href="https://github.com/DanteCavalcanteSantos">
+                <img class="midia_img" src="assets/img/github_icon.png" alt="icone GitHub">
+            </a>
+            <a class="midia_a" target="_blank" href="http://api.whatsapp.com/send?1=pt_BR&phone=5511948650209">
+                <img class="midia_img" src="assets/img/whatsapp_icon.png" alt="icone Whatsapp">
+            </a>
+        </nav>
+       </div>
+        </div>
+        <div class="paragrafo_rodape">
+            <p class="rodape_parag">&copy;Dante Santos</p>
+        </div>
+    </footer>
+
+    <script src="./assets/script/script.js"></script>
+</body>
+</html>
